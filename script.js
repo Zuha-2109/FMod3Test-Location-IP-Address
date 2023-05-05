@@ -10,7 +10,7 @@ const lat = document.getElementById('lat');
 const long = document.getElementById('long');
 const city = document.getElementById('city');
 const region = document.getElementById('region');
-const organization = document.getElementById('organization');
+const organisation = document.getElementById('organisation');
 const hostname = document.getElementById('hostname');
 
 const timeZone = document.getElementById('time-zone');
