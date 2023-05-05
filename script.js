@@ -10,7 +10,7 @@ const lat = document.getElementById('lat');
 const long = document.getElementById('long');
 const city = document.getElementById('city');
 const region = document.getElementById('region');
-const organisation = document.getElementById('organisation');
+const organization = document.getElementById('organization');
 const hostname = document.getElementById('hostname');
 
 const timeZone = document.getElementById('time-zone');
@@ -58,7 +58,7 @@ getBtn.addEventListener('click',()=>{
                 long.innerHTML = `<strong>Long: </strong>${longitude}`;
                 city.innerHTML = `<strong>City: </strong>${dataJson.city}`;
                 region.innerHTML = `<strong>Region: </strong>${dataJson.region}`;
-                organisation.innerHTML = `<strong>Organisation: </strong>${dataJson.org}`;
+                organisation.innerHTML = `<strong>Organization: </strong>${dataJson.org}`;
                 hostname.innerHTML = `<strong>Hostname: </strong>${dataJson.hostname}`;
     
                 map.setAttribute('src',`https://maps.google.com/maps?q=${latitude},${longitude}&hl=en&z=14&amp&output=embed`);
